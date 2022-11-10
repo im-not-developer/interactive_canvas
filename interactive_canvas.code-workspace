@@ -1,0 +1,49 @@
+{
+  "folders": [
+    {
+      "path": "./"
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "[html]": {
+    //   "editor.rulers": [80],
+    // 	"editor.tabSize": 2,
+    // 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 	"editor.formatOnSave": true
+    // },
+    // "[css]": {
+    // 	"editor.tabSize": 2,
+    // 	"editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "[javascript]": {
+    // 	"editor.rulers": [100],
+    // 	"editor.tabSize": 2,
+    // 	"editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    // "[typescript]": {
+    // 	"editor.rulers": [100],
+    // 	"editor.tabSize": 2,
+    // 	"editor.defaultFormatter": "esbenp.prettier-vscode"
+    // },
+    "files.encoding": "utf8",
+    "editor.tabSize": 2,
+    "files.autoSave": "onFocusChange", // optional but recommended
+    "editor.formatOnSave": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.revealIfOpen": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.bracketSameLine": true
+  },
+  "extensions": {
+    "recommendations": [
+      "albert.tabout",
+      "ritwickdey.liveserver",
+      "esbenp.prettier-vscode",
+      "ecmel.vscode-html-css",
+      "formulahendry.auto-close-tag",
+      "vscodevim.vim",
+      "naumovs.color-highlight"
+    ]
+  }
+}
